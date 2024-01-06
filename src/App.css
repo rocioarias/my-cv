@@ -1,34 +1,44 @@
-.App {
+
+.Cv{
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
+
+.Cv-logo {
+  height: 100px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* @media (prefers-reduced-motion: no-preference) {
+    .Cv-logo {
+      animation: Cv-logo-spin infinite 20s linear;
+    }
+  } */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Cv-header {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-size: calc(50px + 2vmin);
 
-.App-link {
-  color: #61dafb;
-}
+  @media (max-width: 768px) {
+    font-size: calc(100px + 2vmin);
+  }
 
-@keyframes App-logo-spin {
+  @media (max-width: 480px) {
+    font-size: calc(25px + 2vmin);
+  }
+  color: rgb(0, 0, 0);
+  font-family: 'Rubik Scribble', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+@keyframes Cv-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +46,5 @@
     transform: rotate(360deg);
   }
 }
+
+
