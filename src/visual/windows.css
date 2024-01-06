@@ -177,3 +177,15 @@ figure {
 		z-index: 2;
 	}
 }
+
+
+.buttonLink {
+	display: inline-block;
+	padding: 0.5em 1em;
+	border-radius: 4px;
+	margin-top: 5px;
+	font-size: 1em;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}

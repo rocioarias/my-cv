@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import YouTubePlayer from "react-player/youtube";
+import "../visual/windows.css";
 import "../visual/music.css"; // Ensure this path is correct
 
 function MusicReproduction() {
@@ -16,7 +17,7 @@ function MusicReproduction() {
             <div className="mp3Reproducer">
                 <div className="mp3Reproducer-screen">
                     <YouTubePlayer
-                        url="https://youtu.be/L_StmRnuREw"
+                        url="https://youtu.be/H6na01EG2gk"
                         controls={false}
                         volume={volume}
                         className="video"

@@ -1,11 +1,11 @@
 /* General Styles for the Music Reproducer Component */
 .mp3Reproducer {
-    width: 320px; /* approximate width of an old iPad */
+    width: 250px; /* approximate width of an old iPad */
     height: 250px; /* updated height */
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: #f0f0f0;
-    background-image: url("https://i.pinimg.com/564x/84/fc/ca/84fccaaf90b01c178f750da005ba1a68.jpg");
+    background-image: url("https://i.pinimg.com/originals/6b/4a/a5/6b4aa56dd6b1dacd6762645691162ff8.jpg");
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     background-repeat: no-repeat; /* Adjust as needed */
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #333 2px solid;
 }
 
 /* Screen Styling */
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /* YouTube Player Styling */
@@ -51,8 +53,7 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    font-size: 16px;
-    color: #333;
+    border: #333 2px solid;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -79,7 +80,7 @@
 
 .mp3Reproducer-button.pause{
     background-image: url("/src/img/pause.png");
-    background-position: 12.5px 13px;
+    background-position: 12px 12px;
 }
 
 
