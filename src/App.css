@@ -1,7 +1,13 @@
 
 .Cv{
   text-align: center;
- 
+}
+
+body{
+  background-image: url(/src/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -17,15 +23,15 @@
   } */
 
 .Cv-header {
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+  background: rgb(194,104,255);
+  background: radial-gradient(circle, rgba(194,104,255,1) 0%, rgba(255,255,255,1) 100%);
   min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(50px + 2vmin);
-
+  
   @media (max-width: 768px) {
     font-size: calc(100px + 2vmin);
   }

@@ -12,7 +12,7 @@ body {
 	line-height: 1.5;
 	min-height: 100vh;
 	color: #393232;
-	background-color: #a2b6f8;
+
 }
 
 img {
@@ -22,7 +22,7 @@ img {
 
 article {
 	width: 90%;
-	max-width: 800px;
+	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10vh;
@@ -129,7 +129,7 @@ figure {
 	margin-bottom: 1.25em;
 	width: calc(100% + 1.5em + 2em);
 	@media (min-width: 800px) {
-		max-width: 50%;
+		max-width: 65%;
 	}
 	&:nth-of-type(odd) {
 		float: left;
@@ -157,7 +157,6 @@ figure {
 				rgba(#ffe630, 0.2) 60%
 			),
 			linear-gradient(20deg, rgba(#ff0, 0.5) 0%, rgba(#ff0, 0) 35%);
-		box-shadow: inset 0px 0px 100px rgba(0, 0, 20, 1);
 		z-index: 1;
 	}
 

@@ -16,9 +16,9 @@ function SocialMedia(){
         const phrases = [
             "'Hi there!'.",
             "'Are you enjoying the music? Remember you can pause it in any time'.",
-            "'Did you know that Aqua is the best band ever?'",
+            "'Did you know that Aqua is the best band ever?'.",
             "'I love this song!'.",
-            "'I'm so happy today!.'",
+            "'I'm so happy today!'.",
             "'Is a good day to dance!'.",
         ];
 
