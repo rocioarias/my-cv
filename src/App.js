@@ -5,6 +5,7 @@ import WindowsRetro from './logic/windows';
 import ResumeMySelf from './logic/resumeMySelf';
 import MusicReproduction from './logic/music';
 import SocialMedia from './logic/socialMedia';
+import WorkingExperience from './logic/workExperience';
 
 function Curriculum() {
   return (
@@ -19,23 +20,29 @@ function Curriculum() {
       </div>
       
       <div className='row'>
-        <div className='col-md-6'>
-            <article>
-              <div className='row'>
-                  <div className='col-sm'>
-                    <MusicReproduction />
-                  </div>
-                  <div className='col-sm'>
-                    <SocialMedia />
-                  </div>
-              </div> 
-            </article>
-        </div>
+          <div className='col-sm'>
+              <article>
+                <div className='row'>
+                    <div className='col-sm'>
+                      <MusicReproduction />
+                    </div>
+                    <div className='col-sm'>
+                      <SocialMedia />
+                    </div>
+                    
+                </div> 
+              </article>
+          </div>
 
+          <div className='col-sm'>
+            <ResumeMySelf/>
+          </div>
+      </div>
 
-        <div className='col-md-6'>
-          <ResumeMySelf/>
-        </div>
+      <div className='row'>
+          <div className='col-sm'>
+            <WorkingExperience />
+          </div>
 
       </div>
 
