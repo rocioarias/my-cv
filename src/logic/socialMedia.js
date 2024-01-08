@@ -1,6 +1,5 @@
 import React from "react";
 import habbodancing from "../img/habbodancing.gif"
-import bubble from "../img/bubble.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -16,11 +15,11 @@ function SocialMedia(){
         var first = "The dj says: ";
         const phrases = [
             "'Hi there!'.",
-            "'Are you enjoying the music?, remember you can pause it in any time'.",
+            "'Are you enjoying the music? Remember you can pause it in any time'.",
             "'Did you know that Aqua is the best band ever?'",
             "'I love this song!'.",
             "'I'm so happy today!.'",
-            "'Today is a good day to dance!'.",
+            "'Is a good day to dance!'.",
         ];
 
         var phrase = phrases[getRandomIntInclusive(0, phrases.length - 1)];
@@ -33,7 +32,7 @@ function SocialMedia(){
     return(
         <div className="container">
             <h2> 
-            <img src={bubble} alt="bubble of speach" style={{ width: "250px", height: "36px"}}/>
+            {/* <img src={bubble} alt="bubble of speach" style={{ width: "280px", height: "25px"}}/> */}
             <div className="pt-4" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 
                 <img src={habbodancing} alt="Say hi to the dj !" style={{ width: "150px", height: "150px", margin:"0px"}} onClick={randomPhrases} /> 

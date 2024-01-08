@@ -21,7 +21,6 @@ function WorkingExperience() {
                             
                             <figure>
                                 <img src={work} alt="Profile picture" />
-                                <figcaption>Picture of one of my first days of work.</figcaption>
                             </figure>
                                 <p> 
                                     Alican is a very important company in Argentina that made food for dogs and cats.
