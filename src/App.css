@@ -11,6 +11,32 @@ body{
 }
 
 
+.footer {
+  height: 50px;
+  line-height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(238, 182, 255, 0.848);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 100%;
+    line-height: 40px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    height: 100%;
+    line-height: 40px;
+    font-size: 8px;
+  }
+}
+
+
 .Cv-logo {
   height: 100px;
   pointer-events: none;

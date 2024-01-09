@@ -37,6 +37,9 @@ function Curriculum() {
           </div>
         </div>
       </div>
+      <div className='footer'>
+        made by Rocio A. Arias - thanks for visiting my page, have a nice day!
+      </div>
     </div>
   );
 }

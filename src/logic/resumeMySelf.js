@@ -10,7 +10,7 @@ function ResumeMySelf() {
         <div>
             <article>		
                 <h1 className="headline">Rocio Aylen Arias</h1>
-                <h2 className="subhead">Computer Science Major Student - Junior Frontend Developer</h2>
+                <h2 className="subhead">Computer Science Student - Junior Frontend Developer</h2>
 
                 <div className="article-meta">
                     <p>

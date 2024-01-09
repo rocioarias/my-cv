@@ -41,7 +41,10 @@ function SocialMedia(){
             <button className="buttonLink" onClick={() => window.open("https://www.linkedin.com/in/rocio-a-arias", "_blank")}>Linkedin</button>
             <br />
             <button className="buttonLink" onClick={() => window.open("https://github.com/rocioarias/", "_blank")} >GitHub</button>
-            
+            <br />
+            {/* <button className="buttonLink" >CV</button>
+            <br /> */}
+            <button className="buttonLink" onClick={() => window.location.href = "mailto:rocioarias888@gmail.com"}>E-mail</button>
         </div>
     );
 }
