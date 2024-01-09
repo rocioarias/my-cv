@@ -1,4 +1,5 @@
 {
+  "homepage": "http://rocioarias.github.io/my-cv",
   "name": "my-cv",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +19,6 @@
     "web-vitals": "^2.1.4",
     "webpack": "^5.89.0"
   },
-
-  "homepage": "http://rocioarias.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
