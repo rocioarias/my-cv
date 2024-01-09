@@ -126,14 +126,14 @@ figure {
 	box-shadow: 0 0 0 1px #eee, 0 0 0 2px #c0c0c0, 0 0 0 3px #444;
 	position: relative;
     margin-top: 1.25em;
-	margin-bottom: 1.25em;
+	margin-bottom: 3px;
 	width: calc(100% + 1.5em + 2em);
 	@media (min-width: 800px) {
-		max-width: 65%;
+		max-width: 30%;
 	}
 	&:nth-of-type(odd) {
 		float: left;
-		margin-right: 1.5em;
+		margin-right: 1.0em;
 		margin-left: -3em;
 	}
 
