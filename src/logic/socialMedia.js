@@ -18,7 +18,7 @@ function SocialMedia({lng}){
             first = "El DJ dice: ";
             phrases = [
                 "'¡Hola!'.",
-                "'Estas disfrutando la musica? Recuerda que puedes pausarla en cualquier momento'.",
+                "'¿Estás disfrutando la musica?'.",
                 "'¿Sabias que Aqua es la mejor banda de la historia?'.",
                 "'¡Amo esta cancion!'.",
                 "'¡Estoy muy feliz hoy!'.",
@@ -30,7 +30,7 @@ function SocialMedia({lng}){
             first = "The DJ says: ";
             phrases = [
                 "'Hi there!'.",
-                "'Are you enjoying the music? Remember you can pause it in any time'.",
+                "'Are you enjoying the music?'.",
                 "'Did you know that Aqua is the best band ever?'.",
                 "'I love this song!'.",
                 "'I'm so happy today!'.",

@@ -4,7 +4,7 @@ import "../visual/windows.css";
 import "../visual/music.css"; // Ensure this path is correct
 
 function MusicReproduction() {
-    const [playing, setPlaying] = useState(true);
+    const [playing, setPlaying] = useState(false);
     const [volume, setVolume] = useState(0.25);
 
     const handlePlay = () => {
@@ -17,11 +17,12 @@ function MusicReproduction() {
             <div className="mp3Reproducer">
                 <div className="mp3Reproducer-screen">
                     <YouTubePlayer
-                        url="https://youtu.be/H6na01EG2gk"
+                        url="https://youtube.com/playlist?list=PLE26BACFD5D49B310&si=mzwdtr3Qkx4am22f"
                         controls={false}
                         volume={volume}
                         className="video"
                         playing={playing}
+                        muted={false}
                     />
                 </div>
                 <input
