@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-cv/static/css/main.82e8cdeb.css",
+    "main.js": "/my-cv/static/js/main.133952b5.js",
+    "reactPlayerPreview.js": "/my-cv/static/js/reactPlayerPreview.2990784b.chunk.js",
+    "static/js/787.e5bf260a.chunk.js": "/my-cv/static/js/787.e5bf260a.chunk.js",
+    "static/media/background.jpg": "/my-cv/static/media/background.045df9e74908afca9023.jpg",
+    "static/media/work.jpeg": "/my-cv/static/media/work.c1bacd38ab4ebbb341b2.jpeg",
+    "static/media/profile.jpeg": "/my-cv/static/media/profile.af5412a0c31807198df7.jpeg",
+    "static/media/habbodancing.gif": "/my-cv/static/media/habbodancing.c0ae5891d4f432697721.gif",
+    "index.html": "/my-cv/index.html",
+    "main.82e8cdeb.css.map": "/my-cv/static/css/main.82e8cdeb.css.map",
+    "main.133952b5.js.map": "/my-cv/static/js/main.133952b5.js.map",
+    "reactPlayerPreview.2990784b.chunk.js.map": "/my-cv/static/js/reactPlayerPreview.2990784b.chunk.js.map",
+    "787.e5bf260a.chunk.js.map": "/my-cv/static/js/787.e5bf260a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e8cdeb.css",
+    "static/js/main.133952b5.js"
+  ]
+}
