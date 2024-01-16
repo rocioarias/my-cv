@@ -19,10 +19,12 @@ function Curriculum() {
         <div className='col-md-11'>
           <span>Welcome to my page</span>
         </div>
-        <div className='col-sm' style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div className='col-sm' style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
           <h5> 
-            <button onClick={() => setLng('es')} style={{ backgroundColor: lng === 'es' ? '#a9a8a8' : 'white' }}> 🇦🇷 </button> 
-            <button onClick={() => setLng('en')} style={{ backgroundColor: lng === 'en' ? '#a9a8a8' : 'white' }}> 🇺🇸 </button> 
+            <label class="switch" >
+              <input type="checkbox" onChange={() => lng === 'es' ? setLng('en') : setLng('es')}/>
+              <span class="slider round"></span>
+            </label>
           </h5>
         </div>
         </div>
