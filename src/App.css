@@ -9,8 +9,8 @@ body{
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 40px;
+  height: 25px;
 }
 
 /* Hide default HTML checkbox */
@@ -36,8 +36,8 @@ body{
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 18px;
+  width: 18px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -54,14 +54,14 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 25px;
 }
 
 .slider.round:before {
@@ -113,14 +113,14 @@ input:checked + .slider:before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(50px + 2vmin);
+  font-size: 80px;
   
   @media (max-width: 768px) {
     font-size: calc(100px + 2vmin);
   }
 
-  @media (max-width: 480px) {
-    font-size: calc(25px + 2vmin);
+  @media (max-width: 767px) {
+    font-size: 40px;
   }
   color: rgb(0, 0, 0);
   font-family: 'Rubik Scribble', sans-serif;

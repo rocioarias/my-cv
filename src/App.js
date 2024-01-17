@@ -15,18 +15,19 @@ function Curriculum() {
   return (
     <div className='Cv'>
       <div className='Cv-header'>
-        <div className='row'>
-        <div className='col-md-11'>
-          <span>Welcome to my page</span>
+      <div className='container'>
+        <div className='row py-2'>
+        <div className='col-md-12'style={{ display: "flex", justifyContent:"center", alignItems: "center" }}>
+          <span> {lng === 'es' ? "Bienvenid@ a mi página" : "Welcome to my page"}</span>
         </div>
-        <div className='col-sm' style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
-          <h5> 
-            <label class="switch" >
-              <input type="checkbox" onChange={() => lng === 'es' ? setLng('en') : setLng('es')}/>
+        <div className='col-sm' style={{ display: "flex", justifyContent:"flex-end", alignItems: "center", fontFamily:"monospace" }}>
+            <label class="switch">
+              < input type="checkbox" onChange={() => lng === 'es' ? setLng('en') : setLng('es')}/>
               <span class="slider round"></span>
             </label>
-          </h5>
+            <span style={{fontSize:"10px", paddingLeft: "10px"}}>{lng === 'es' ? "Español" : "English"}</span>
         </div>
+      </div>
         </div>
       </div>
       
