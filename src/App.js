@@ -6,6 +6,7 @@ import MusicReproduction from './logic/music';
 import SocialMedia from './logic/socialMedia';
 import WorkingExperience from './logic/workExperience';
 import Knowledge from './logic/knowledge';
+import Pokemon from './logic/pokemon';
 
 
 function Curriculum() {
@@ -45,6 +46,7 @@ function Curriculum() {
               </div> 
             </article>
             <WorkingExperience lng={lng} />
+            <Pokemon  />
           </div>
           <div className='col-sm'>
             <ResumeMySelf lng={lng} />
