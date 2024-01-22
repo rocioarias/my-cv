@@ -1,11 +1,14 @@
 
 .Cv{
   text-align: center;
+  
 }
 
 body{
   background-image: url(/src/img/background.jpg);
+  background-repeat: no-repeat;
 }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -46,11 +49,11 @@ body{
 }
 
 input:checked + .slider {
-  background-color: #ff56c4;
+  background-color: #90fafa;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #ff56c4;
+  box-shadow: 0 0 1px #90fafa;
 }
 
 input:checked + .slider:before {
@@ -68,46 +71,9 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.footer {
-  height: 50px;
-  line-height: 50px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(227, 158, 248, 0.848);
-}
-
-@media (max-width: 768px) {
-  .footer {
-    height: 100%;
-    line-height: 40px;
-    font-size: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    height: 100%;
-    line-height: 40px;
-    font-size: 8px;
-  }
-}
-
-
-.Cv-logo {
-  height: 100px;
-  pointer-events: none;
-}
-
-  /* @media (prefers-reduced-motion: no-preference) {
-    .Cv-logo {
-      animation: Cv-logo-spin infinite 20s linear;
-    }
-  } */
 
 .Cv-header {
-  background: rgb(194,104,255);
-  background: radial-gradient(circle, rgba(194,104,255,1) 0%, rgb(242, 184, 230) 100%);
+
   min-height: 100px;
   display: flex;
   flex-direction: column;
@@ -123,17 +89,117 @@ input:checked + .slider:before {
     font-size: 40px;
   }
   color: rgb(0, 0, 0);
+
   font-family: 'Rubik Scribble', sans-serif;
+
+  font-weight: bold;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
 
-@keyframes Cv-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* Footer */
+#toolbar{
+  background: #c0c0c0;
+  height: 35px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #fff;
+  
+  .toolbar-start-menu{
+    float: left;
+    
+    .start-button{
+      background: url(https://win98icons.alexmeub.com/icons/png/windows-0.png) no-repeat 2px center / 24px;
+      padding-left: 28px;
+      padding-right: 5px;
+      height: 29px;
+      margin: 2px 3px;
+      font-weight: bold;
+      border: 2px solid #7c7c7c;
+      border-top-color: #fff;
+      border-left-color: #fff;
+      
+      &:hover{
+        background-color: darken(#c0c0c0, 10%);
+      }
+    }
+    
+    .start-menu-wrapper{
+      border: 2px solid #7c7c7c;
+      border-top-color: #fff;
+      border-left-color: #fff;
+      background: #c0c0c0;
+      position: absolute;
+      left: 2px;
+      bottom: 33px;
+      width: 190px;
+      min-height: 200px;
+      align-items: center;
+      justify-content: center;
+      
+      
+      .start-menu{
+        padding: 25px;
+      }
+
+    }
+
   }
-  to {
-    transform: rotate(360deg);
+  
+
+  
+  .toolbar-separator{
+    width: 2px;
+    height: 26px;
+    margin-top: 2px;
+    background: #797979;
+    float: left;
+    border-right: 1px solid #fff;
+  }
+  
+  .toolbar-left{
+    float: left;
+    padding: 0 5px;
+  }
+  
+  .toolbar-icon{
+    background: no-repeat center / auto 20px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-top: 3px;
+    margin: 3px 2px;
+    
+    &.ie{
+      background-image: url(https://win98icons.alexmeub.com/icons/png/msie1-4.png);
+    }
+    
+    &.outlook{
+      background-image: url(https://win98icons.alexmeub.com/icons/png/outlook_express-0.png);
+    }
+    
+    &.desktop{
+background-image: url(https://win98icons.alexmeub.com/icons/png/desktop-4.png);
+    }
+    
+    &.channels{
+      background-image: url(https://win98icons.alexmeub.com/icons/png/channels-5.png);
+    }
+  }
+  
+  .toolbar-right{
+    float: right;
+    margin: 2px 3px;
+    height: 29px;
+    border: 2px solid #7c7c7c;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    
+    .time{
+      padding: 2px;
+    }
   }
 }
-
-

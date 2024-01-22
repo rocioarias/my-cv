@@ -10,7 +10,7 @@ I had alot of inspiration in the retro webpages, the vaporwave stetic. Used open
 
 All of the files provides:
 
-* **Dynamic Content** : The content of the component changes based on the `lng` prop. For example, the headline, subhead, and introduction text are all dynamic and change based on the current language setting. Supports two languages, Spanish (`es`) and English (`en`). 
+* **Dynamic Content** : The content of the component changes based on the `lng` prop. For example, the headline, subhead, and introduction text are all dynamic and change based on the current language setting. Supports two languages, Spanish (`es`) and English (`en`).
 * **Responsive Design**: The HTML structure of the application is designed to be responsive. This ensures that the application's layout and functionality work well on a variety of devices and window or screen sizes.
 * **Descriptive Variables**: The application incorporates descriptive variables that enhance its adaptability and customization. This feature contributes to a more personalized and aesthetically pleasing user experience.
 
@@ -37,8 +37,8 @@ In this file i tried to show my capacities to work with events inside of the pag
 
 This file is part of a larger project and is designed to work in conjunction with other files to provide a complete personal profile and resume.
 
-The component includes a section where the user explains why they chose Computer Science as their field of study. 
-
+* **Profile Information** : The component displays the user's name, academic status, and a brief introduction. It also includes a profile picture.
+* **Why Computer Science?** : The component includes a section where the user explains why they chose Computer Science as their field of study. The title of this section also changes based on the current language setting.
 
 ### `music.js`
 
@@ -54,4 +54,10 @@ Key features of the `MusicReproduction` component:
 
 This module is a part of a larger project and is designed to work in conjunction with other modules to provide a complete music playing experience.
 
-### `resumeMySelf`
+### `workExperience.js`
+
+The component displays the user's work experience in a list format. Each list item represents a job role, with the role's duration, company name, job description, and skills acquired.
+
+### `pokemon.js`
+
+The component displays the user's work experience in a list format. Each list item represents a job role, with the role's duration, company name, job description, and skills acquired.
