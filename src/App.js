@@ -48,7 +48,7 @@ function Curriculum() {
               </div>
             </article>
             <WorkingExperience lng={lng} />
-            <Pokemon />
+            <Pokemon lng={lng} />
           </div>
           <div className='col-sm-6'>
             <ResumeMySelf lng={lng} />
