@@ -43,9 +43,9 @@ function Pokemon({lng}) {
                 <option value="4">Charmander</option>
                 <option value="7">Squirtle</option>
             </select>
-            <div className="row py-4">
+            <div className="row pt-2">
                 {pokemonData && (
-                    <>
+                    <div style={{ display: "flex",alignItems: "center" }}>
                         <div className="col-sm">
                             <div className="pokemon-card">
                                 <>
@@ -58,7 +58,7 @@ function Pokemon({lng}) {
                                 </>
                             </div>
                         </div>
-                        <div className="col-sm">
+                        <div className="col-sm px-1">
                             <div className="pokemon-card">
                                 <>
                                     <img
@@ -82,9 +82,9 @@ function Pokemon({lng}) {
                                 </>
                             </div>
                         </div>
-                    </>
+                    </div>
                 )}
-                <div className="col-sm"></div>
+                
             </div>
         </article>
     );
