@@ -43,51 +43,26 @@ function Pokemon({lng}) {
                 <option value="4">Charmander</option>
                 <option value="7">Squirtle</option>
             </select>
-            <div className="row pt-2">
-                {pokemonData && (
-                    <div style={{ display: "flex",alignItems: "center" }}>
-                        <div className="col-sm">
-                            <div className="pokemon-card">
-                                <>
-                                    <img
-                                        className="pokemon-card-image"
-                                        src={pokemonData[0].sprites.front_default}
-                                        alt={pokemonData[0].name}
-                                    />
-                                    <h1 className="name">{pokemonData[0].name}</h1>
-                                </>
-                            </div>
-                        </div>
-                        <div className="col-sm px-1">
-                            <div className="pokemon-card">
-                                <>
-                                    <img
-                                        className="pokemon-card-image"
-                                        src={pokemonData[1].sprites.front_default}
-                                        alt={pokemonData[1].name}
-                                    />
-                                    <h1 className="name">{pokemonData[1].name}</h1>
-                                </>
-                            </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className="pokemon-card">
-                                <>
-                                    <img
-                                        className="pokemon-card-image"
-                                        src={pokemonData[2].sprites.front_default}
-                                        alt={pokemonData[2].name}
-                                    />
-                                    <h1 className="name">{pokemonData[2].name}</h1>
-                                </>
-                            </div>
-                        </div>
-                    </div>
-                )}
-                
-            </div>
-        </article>
-    );
+            <div className="d-flex justify-content-center align-items-center flex-wrap">
+        {pokemonData && (
+          <>
+            {pokemonData.map((pokemon, index) => (
+              <div className="pokemon-card mx-2 my-2" key={index}>
+                <>
+                  <img
+                    className="pokemon-card-image"
+                    src={pokemon.sprites.front_default}
+                    alt={pokemon.name}
+                  />
+                  <h1 className="name">{pokemon.name}</h1>
+                </>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
+    </article>
+  );
 }
 
 export default Pokemon;
